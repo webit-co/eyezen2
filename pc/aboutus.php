@@ -108,9 +108,9 @@ include($file_pass."include/nav.php");
 					</a>
 				</div>
 			</div>
-			<div class="office_title">
+			<div class="office_title02">
 				<div class="access_company_title lines-on-sides">東京オフィス</div>
-				<!-- 〒107-0052 東京都港区赤坂6丁目18-11 ストーリア赤坂 -->
+				〒162-0845 東京都新宿区市谷本村町2-10STREAM ICHIGAYA 901
 			</div>
 			<!-- <div class="map">
 				<div id="eyezen_map3" class="eyezen_map" style="width:60%;height:390px;"></div>

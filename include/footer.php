@@ -56,11 +56,10 @@
 					〒556-0015<br>
 					大阪府大阪市浪速区 敷津西2-1-12 YKビル６階
 				</div>
-				<div id="company_data3" class="lines-on-sides">
-					<div class="lines-on-sides"><strong>東京オフィス</strong></div>
-					<!-- <br>
-					〒107-0052<br>
-					東京都港区赤坂6-18-11 ストーリア赤坂 -->
+				<div id="company_data3">
+					<div class="lines-on-sides"><strong>東京オフィス</strong></div><br>
+					〒162-0845<br>
+					東京都新宿区市谷本村町2-10STREAM ICHIGAYA 901 
 				</div>
 				<div id="contact_box">
 					<div id="contact_text">
