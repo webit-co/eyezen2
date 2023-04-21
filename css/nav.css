@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+  font-family: '5x5dots';
+  src: url("../fonts/5x5dots.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'migmix1p';
+  src: url("../fonts/ipaexg.ttf") format("truetype");
+}
+/**************************************
+            ナビ
+**************************************/
+#top_main_nav {
+  z-index: 5;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  font-size: 23px;
+  font-size: 1.4375rem;
+  font-weight: bold;
+  font-family: '5x5dots','migmix1p',"Myriad Pro", "Trebuchet MS", sans-serif;
+  background: rgba(0, 0, 0, 0.46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+}
+#top_main_nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+  margin: 0 0 0 auto;
+}
+#top_main_nav li.each_nav a {
+  color: #FFF;
+  text-decoration: none;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#top_main_nav li.each_nav a:hover {
+  color: #F00;
+  text-decoration: underline;
+}
+#top_main_nav #content_nav {
+  background: #FFF;
+  line-height: 0;
+  width: 90px;
+  height: 50px;
+  background-image: url(../img/contact_button.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#top_main_nav #content_nav:hover {
+  background-color: #F00;
+  background-image: url(../img/contact_button_w.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#top_main_nav #content_nav a {
+  height: 100%;
+}
+
+#nav_log img {
+  width: 180px;
+}

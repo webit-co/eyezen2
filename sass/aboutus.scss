@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@import "compass";
+@import "mixin.scss";
+@import "common.scss";
+
+@import "nav.scss";
+
+#about_text,
+#company_text {
+  line-height: 2.2;
+  width: 60%;
+  margin: 30px auto 0 auto;
+  .address {
+  	line-height:1;
+  	margin-top:10px;
+  	margin-bottom:10px;
+    text-indent: -1em;
+    padding-left: 1em;
+  }
+}
+
+#access_text {
+  line-height: 2.2;
+  margin: 30px auto 0 auto;
+}
+
+#company_contents {
+	dl.list {
+		border-top: dotted 1px #ff0708;
+		dt,
+		dd {
+			padding: 2px 0.5em 2px 19px;
+		}
+		dt {
+	    clear: left;
+	    float: left;
+	    text-align: right;
+	    width: 8em;
+		}
+		dd {
+	    padding-left: 12em;
+	    border-bottom: dotted 1px #ff0708;
+		}
+	}
+}
+
+.office_title {
+	margin-top: 60px;
+	text-align:center;
+}
+
+.map {
+	.eyezen_map {
+		margin: 10px auto 10px auto;
+	}
+	.map_link {
+		width: 190px;
+		margin: 0px auto 50px auto;
+	}
+}
+.infoTitle,
+.infoTelephone {
+	color: #000;
+}
+
+.lines-on-sides {
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  &:before,
+  &:after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: #FFF;
+    display: block;
+  }
+  &:before {
+    margin-right: 1.4em;
+  }
+  &:after {
+    margin-left: 1.4em;
+  }
+}
+.access_company_title {
+	width: 60%;
+	margin: 0 auto;
+}

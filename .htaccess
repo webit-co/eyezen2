@@ -1,0 +1,35 @@
+# DirectoryIndex index.html index.htm index.shtml index.php index.cgi
+# AuthUserFile /home/users/0/sub.jp-smad-test/web/eyezen/.htpasswd
+# AuthType Basic
+# AuthName "Web access"
+# Require valid-user
+# Satisfy all
+# Order deny,allow
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# RewriteCond %{HTTP_USER_AGENT} (iPhone|Android.*Mobile|Windows.*Phone) [NC]
+# RewriteCond %{QUERY_STRING} !mode=pc
+# RewriteRule ^$ /sp/ [R,L]
+</IfModule>
+#RewriteBase /
+#RewriteCond %{REQUEST_URI} !(^/sp/images/)
+#RewriteCond %{REQUEST_URI} !\.css$
+#RewriteCond %{REQUEST_URI} !\.js$
+#RewriteCond %{REQUEST_URI} !\.jpg$
+#RewriteCond %{REQUEST_URI} !\.gif$
+#RewriteCond %{REQUEST_URI} !\.png$
+#RewriteRule ^sp/(.*)$ http://eyezen.jp [R=301,L]
+#RewriteRule ^pc/(.*)$ http://eyezen.jp [R=301,L]
+
+
+# php拡張子なしでもアクセス
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+#「.php」を「.html」に変改
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([0-9a-zA-Z_\-]+)\.html$ $1\.php [L]

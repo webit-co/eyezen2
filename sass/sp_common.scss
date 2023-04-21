@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+@import "compass";
+@import "mixin.scss";
+
+/*****************************
+ base
+******************************/
+
+article, nav, footer {
+	min-width: 100%;
+}
+
+.title_box {
+  padding-top: 30px;
+}
+
+.befor_line:before {
+  height: 60px;
+  top: -20px;
+}
+
+h1#about,
+h1#gallery,
+h1#technique,
+h1#products,
+h1#about_title,
+h1#company_title,
+h1#products_title,
+h1#flow_title,
+h1#recruit_title,
+h1.title1 {
+	width: 90%;
+	@include font-size(30);
+}
+
+
+#top_header {
+  img {
+    width: 100%;
+  }
+}
+
+#page_name {
+    @include font-size(20);
+    padding: 15px 30px;
+    width: 50%;
+    text-align: center;
+}
+
+/*****************************
+ modal
+******************************/
+.mm_box {
+	.mfp-close {
+    // right: -30px;
+    top: -30px;
+    cursor: pointer;
+    display:none;
+	}
+}
+.mm_box {
+  text-align:center;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+.mm_title {
+  font-family:'5x5dots','migmix1p',"Myriad Pro", "Trebuchet MS", sans-serif;
+  color: #FFF;
+  z-index: 1000;
+  position: relative;
+  @include font-size(20);
+}
+.mm_area {
+  position:relative;
+  width:100%;
+  padding-top:56.25%;
+    iframe {
+    position:absolute;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+  }
+}
+.mm_sub_text {
+  color:#FFF;
+  margin: 10px 0;
+}
+.popup-modal-dismiss a{
+  border: 1px solid #FFF;
+  padding: 10px 20px;
+  color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    &:hover {
+      background: #FFF;
+      color: #000;
+    }
+}
+/**************************************
+            footer
+**************************************/
+
+#footer_company_area {
+  text-align: center;
+  #company_name {
+    @include font-size(25);
+    font-weight:normal;
+    padding-top: 30px;
+  }
+  #company_data1 {
+    display:flex;
+    @include font-size(16);
+    justify-content: center;
+    margin-top: 30px;
+    img {
+      width: 23px;
+    }
+    ul {
+       display: flex;
+      flex-direction: row;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      margin: 6px;
+    }
+  }
+  #company_data2 {
+    @include font-size(16);
+    margin-top: 10px;
+  }
+  #contact_box {
+    margin-top:20px;
+    margin-bottom:20px;
+    #contact_text {
+      @include font-size(22);
+      font-weight:bold;
+    }
+    a {
+      background: #FFF;
+      color: #000;
+      @include font-size(23);
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      margin: 5px auto;
+      padding: 10px 0px 10px 40px;
+      @include  border-radius(40px);
+      background-image: url(../img/mail_icon.png);
+      background-repeat: no-repeat;
+      background-size: 40px;
+      background-position: 30px center;
+      @include transition(.4s);
+      &:hover {
+        background: #F00;
+        color: #fff;
+        background-image: url(../img/mail_icon_w.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: 30px center;
+      }
+    }
+    img {
+      width: 40px;
+      margin-right: 10px;
+    }
+  }
+  #footer_sns_area,
+  #footer_sns_area2,
+  #footer_sns_area3 {
+    margin-top: 20px;
+    a {
+      width: 335px;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#footer_sns_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/**************************************
+            footer
+**************************************/

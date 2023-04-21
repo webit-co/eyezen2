@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@import "compass";
+@import "mixin.scss";
+@import "common.scss";
+
+@import "nav.scss";
+
+#recruit_text {
+  line-height: 2.2;
+  width: 60%;
+  margin: 30px auto 0 auto;
+  .address {
+  	line-height:1;
+  	margin-top:10px;
+  	margin-bottom:10px;
+    text-indent: -1em;
+    padding-left: 1em;
+  }
+}
+
+#recruit_contents {
+	margin-bottom: 100px;
+	#recruit_box {
+		margin-top: 50px;
+	}
+	dl.list {
+		border-top: dotted 1px #ff0708;
+		dt,
+		dd {
+			padding: 2px 0.5em 2px 19px;
+		}
+		dt {
+	    clear: left;
+	    float: left;
+	    text-align: right;
+	    width: 8em;
+		}
+		dd {
+	    padding-left: 12em;
+	    border-bottom: dotted 1px #ff0708;
+		}
+	}
+}
+#mail_to_button {
+	border: 1px solid #FFF;
+    width: 140px;
+    margin: 20px 0 20px auto;
+    @include text-shadow(none);
+	a {
+		padding:5px 10px;
+		color: #FFF;
+		text-decoration:none;
+		text-align:left;
+		text-indent: 50px;
+		transition: 0.4s;
+	    background-image: url(../img/mail_icon_w.png);
+	    background-repeat: no-repeat;
+	    background-size: 30px;
+	    background-position: 10px center;
+		&:hover {
+			background-image: url(../img/mail_icon.png);
+			background-color: #FFF;
+			color:#000;
+		}
+	}
+}

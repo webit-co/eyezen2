@@ -1,0 +1,376 @@
+@charset "utf-8";
+
+@import "compass";
+@import "mixin.scss";
+@import "common.scss";
+@import "sp_common.scss";
+
+
+.topimage img{
+	width:100%;
+}
+.section {
+	text-align: center;
+	margin: 0 3%;
+}
+.section img {
+	width: 100%;
+}
+.section div {
+	margin: 20px 0;
+	position: relative;
+}
+.about_us {
+
+}
+.button_text {
+	font-family: '5x5dots',"Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #FFF;
+	padding: 8% 5%;
+}
+
+/**************************************
+            ABOUT US
+**************************************/
+
+#about_contents {
+  background: radial-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)) fixed, url(../img/about_contents_back.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: 300%;
+  background-position: bottom;
+  padding-bottom: 30px;
+}
+
+#about_box {
+  #about_text,
+  #about_text2 {
+  line-height: 1.6;
+  width: 90%;
+  margin: 20px auto 0 auto;
+  }
+  #about_text2 {
+    display:none;
+  }
+}
+.open_text {
+  display:block!important;
+}
+
+/**************************************
+            GALLERY
+**************************************/
+#gallery_contents {
+  background: #000;
+  padding-bottom: 1px;
+}
+#gallery_box {
+  color: #FFF;
+}
+
+#gallery_category > li {
+  width: 100%;
+  min-height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #b50000;
+  display:flex;
+  .category_title {
+    @include font-size(16);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+  }
+}
+.gallery_list {
+  width: 75%;
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  .each_move {
+    position:relative;
+    .popup-modal {
+      .click_mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.6);
+        @include transition(.3s);
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color:#FFF;
+        font-family:'5x5dots','migmix1p',"Myriad Pro", "Trebuchet MS", sans-serif;
+        line-height: 2;
+        font-weight: bold;
+        .click_text {
+          @include font-size(13);
+        }
+        .mask_move_title {
+          font-family:'migmix1p',"Myriad Pro", "Trebuchet MS", sans-serif;
+          @include font-size(15);
+          line-height: 1.2;
+          border-bottom: 1px solid #fff;
+          padding: 0 20px;
+        }
+      }
+      &:hover .click_mask {
+        opacity: 1;
+      }
+    }
+    img {
+      width:100%;
+    }
+  }
+}
+
+/**************************************
+            GALLERY
+**************************************/
+/**************************************
+            WORKS
+**************************************/
+#machinery_box dl.list .machinery_hide_button {
+  display: block;
+  border-bottom: none !important;
+  line-height: 1!important;
+  @include font-size(15);
+}
+.machinery_hide,
+.technique_hide {
+  display:none;
+}
+#technique_box{
+  padding-bottom: 30px;
+}
+#technique_contents {
+  // background:url(../img/sp/works_back.jpg);
+  // // @include background(radial-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.76)) , url(../img/sp/works_back.jpg));
+  // background-repeat: no-repeat;
+  // background-blend-mode: multiply;
+  // background-size: cover;
+  // background-position: bottom center;
+  // background-attachment: fixed;
+  &::before {
+    background:url(../img/sp/works_back.jpg) no-repeat center;
+    background-size: cover;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 108px;
+    content: "";
+    z-index: -1;
+  }
+}
+dl.technique1_list {
+  line-height: 1.5;
+  dt {
+    @include font-size(17);
+    margin: 0px;
+    padding: 5px 0px 5px 10px;
+    border-bottom: dotted 1px #ff0708;
+  }
+  dd {
+    padding: 10px 0.5em 10px 2em;
+  }
+  .line_top {
+    border-top: dotted 1px #ff0708;
+  }
+}
+#technique1 {
+  width: 90%;
+  margin: 40px auto 0 auto;
+  border: 1px solid #FFF;
+  border-top: none;
+  position: relative;
+  #technique1_title {
+    @include font-size(20);
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: -9px;
+    width: 100%;
+  }
+  .technique1_list {
+    padding: 20px 10px;
+  }
+}
+#technique2 {
+  width: 90%;
+  margin: 50px auto 0 auto;
+  #technique2_title {
+    @include font-size(20);
+    font-weight: bold;
+    text-align: center;
+  }
+}
+#actual2box_1,
+#actual2box_2 {
+  width: 100%;
+  text-align: left;
+}
+#actual_results_wapper {
+  // display:flex;
+}
+.actual_results_box {
+  // width:100%;
+  padding:10px;
+  line-height: 1.8;
+  .actual_results_title {
+    font-weight:bold;
+    @include font-size(19);
+  }
+  p {
+  	padding-left: 10px;
+  }
+}
+
+.lines-on-sides {
+  color: #FFF;
+  @include font-size(24);
+  display: flex;
+  align-items: center;
+  &:before,
+  &:after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: #FFF;
+    display: block;
+  }
+  &:before {
+    margin-right: 1.4em;
+  }
+  &:after {
+    margin-left: 1.4em;
+  }
+}
+#technique3 {
+  width: 90%;
+  margin: 50px auto 0 auto;
+  #technique3_title {
+    @include font-size(20);
+    font-weight: bold;
+    text-align: center;
+  }
+}
+#machinery_box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 2.2;
+  dl.list {
+    dt {
+      @include font-size(18);
+      line-height: 2;
+      padding: 0px 0px 0px 10px;
+      border-top: dotted 1px #ff0708;
+      border-bottom: dotted 1px #ff0708;
+    }
+    dd {
+      padding: 0px 0.5em 0px 3em;
+    }
+  }
+}
+/**************************************
+            technique
+**************************************/
+/**************************************
+            products
+**************************************/
+
+#products1 {
+  width: 90%;
+  margin: 40px auto 0 auto;
+  border: 1px solid #FFF;
+  border-top: none;
+  position: relative;
+  #products1_title {
+    @include font-size(20);
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: -9px;
+    width: 100%;
+  }
+  .products1_list {
+    padding: 20px 10px;
+  }
+}
+#products_box{
+  padding-bottom: 30px;
+}
+#products_contents {
+  background:url(../img/sp/works_back2.jpg);
+  // @include background(radial-gradient(rgba(31, 53, 29, 0.7), rgba(0,0,0,0.7)) fixed, url(../img/sp/works_back2.jpg));
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+}
+dl.products1_list {
+  line-height: 1.5;
+  dt {
+    @include font-size(17);
+    margin: 0px;
+    padding: 5px 0px 5px 10px;
+    border-bottom: dotted 1px #ff0708;
+  }
+  dd {
+    padding: 10px 0.5em 10px 5em;
+  }
+  .line_top {
+    border-top: dotted 1px #ff0708;
+  }
+}
+
+/**************************************
+            products
+**************************************/
+/**************************************
+            OTHER
+**************************************/
+#other_contents {
+  width:100%;
+}
+
+#other_box2 {
+  #eyezen_map {
+    color: #000;
+    text-shadow: none;
+  }
+}
+/**************************************
+            OTHER
+**************************************/
+
+/**************************************
+            recruit
+**************************************/
+#recruit_contents {
+  background:url(../img/sp/1.jpg);
+  // background: radial-gradient(rgba(0, 0, 0, 0.25), rgba(0,0,0,0.53)) fixed, url(../img/sp/1.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 60px;
+  #recruit_text {
+    line-height: 2.2;
+    width: 80%;
+    margin: 30px auto 0 auto;
+  }
+}
+
+/**************************************
+            recruit
+**************************************/

@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+@import "compass";
+@import "mixin.scss";
+@import "common.scss";
+@import "sp_common.scss";
+
+#technique_text,
+#flow_box,
+#actual_box,
+#machinery_box {
+  line-height: 2.2;
+  width: 90%;
+  margin: 30px auto 0 auto;
+}
+
+#technique_contents{
+	dl.technique {
+		border-top: dotted 1px #ff0708;
+		dt {
+			@include font-size(18);
+		    padding: 3px 0 5px 5px;
+		    border-bottom: dotted 1px #ff0708;
+		}
+		dd {
+	    	padding: 7px 0.5em 7px 3em;
+		}
+		.line_top {
+			border-top: dotted 1px #ff0708;
+		}
+	}
+}
+
+.actual2box_1,
+.actual2box_2 {
+  width: 100%;
+  text-align: left;
+}
+#actual_results_wapper {
+  // display:flex;
+}
+.actual_results_box {
+  // width:100%;
+  padding:10px;
+  line-height: 1.8;
+  .actual_results_title {
+    font-weight:bold;
+    @include font-size(19);
+  }
+  p {
+  	padding-left: 10px;
+  }
+}
+#actual_box h2{
+  font-size: 33px;
+  font-weight: bold;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  padding-bottom: 0;
+  border-bottom: 1px dashed #ffffff;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+#machinery_contents {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 2.2;
+  dl.list {
+    dt {
+      @include font-size(18);
+      line-height: 2;
+      padding: 0px 0px 0px 10px;
+      border-top: dotted 1px #ff0708;
+      border-bottom: dotted 1px #ff0708;
+    }
+    dd {
+      padding: 0px 0.5em 0px 3em;
+    }
+  }
+}
+
+.machinery_img {
+	width: 100%;
+}
+
+#machinery_title {
+  line-height:1;
+}

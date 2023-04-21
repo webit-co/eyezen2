@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@import "compass";
+@import "mixin.scss";
+@import "common.scss";
+
+@import "nav.scss";
+
+#technique_text,
+#flow_box,
+#actual_box,
+#machinery_box {
+  line-height: 2.2;
+  width: 60%;
+  margin: 30px auto 0 auto;
+}
+
+#technique_contents{
+	dl.technique {
+		border-top: dotted 1px #ff0708;
+		dt {
+			@include font-size(18);
+		    padding: 3px 0 5px 10px;
+		    border-bottom: dotted 1px #ff0708;
+		}
+		dd {
+	    	padding: 0px 0.5em 0px 5em;
+		}
+		.line_top {
+			border-top: dotted 1px #ff0708;
+		}
+	}
+}
+
+#actual2box_1,
+#actual2box_2 {
+  width: 50%;
+  text-align: center;
+}
+#actual_results_wapper {
+  display:flex;
+}
+.actual_results_box {
+  width:100%;
+  padding:15px;
+  line-height: 1.8;
+  .actual_results_title {
+    font-weight:bold;
+    @include font-size(19);
+  }
+}
+
+#machinery_contents {
+	margin-bottom: 70px;
+	dl.list {
+		dt {
+			@include font-size(18);
+	    padding: 0px 0px 0px 10px;
+	    border-top: dotted 1px #ff0708;
+	    border-bottom: dotted 1px #ff0708;
+		}
+		dd {
+	    padding: 0px 0.5em 0px 5em;
+		}
+	}
+}

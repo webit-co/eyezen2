@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.topimage img{
+	width:100%;
+}
+.section {
+	text-align: center;
+	margin: 0 3%;
+}
+.section img {
+	width: 100%;
+}
+.section div {
+	margin: 20px 0;
+	position: relative;
+}
+.about_us {
+
+}
+.button_text {
+	font-family: '5x5dots',"Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #FFF;
+	padding: 8% 5%;
+}
+

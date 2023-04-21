@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+	color: #fff;
+	font-size: 14px;
+}
+.section {
+	text-align: left;
+	margin: 2% 3%;
+}
+.section img {
+	width: 100%;
+}
+.headerarea {
+  position: fixed;
+  background: #424242;
+  width: 100%;
+  height: 45px;
+  z-index: 100;
+}
+.topimage {
+	padding-top: 45px;
+}
+.topimage img{
+	width:100%;
+}
+p.about {
+  margin-top: 10px;
+}
+
+dl.list dt {
+  clear: left;
+  padding: 7px 0.5em 7px 9px;
+  border-bottom: dotted 1px #FF0708;
+  font-weight: bold;
+}
+
+dl.list dd {
+  padding: 7px 0.5em 7px 3em;
+  border-bottom: dotted 1px #ff0708;
+}
+dl.list dd span{
+  letter-spaceing:0.1em;
+  font-weight:700;
+}
+
+dl.list dd a {
+  text-decoration: none;
+  color: #DEEEFE;
+}

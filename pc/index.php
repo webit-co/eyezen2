@@ -1,0 +1,223 @@
+<article>
+	<section class="masthead">
+		<div id="top_main_area">
+			<h1 id="logo">
+				EYEZEN
+			</h1>
+			<!-- <a class="slide link" href="#about" ></a> -->
+		</div>
+		<div id="top_contact_box">
+			<div id="fb_link_area">
+				<a class="fb_link" href="https://www.youtube.com/c/eyezenchannel" target="_blank">
+					<img src="img/yt_top_banner1.png" alt="youtube">
+				</a>
+			</div>
+			<div id="fb_link_area">
+				<a class="fb_link" href="https://www.facebook.com/eyezen2010" target="_blank">
+					<img src="img/fb_top_banner1.png" alt="facebook">
+				</a>
+			</div>
+			<div id="fb_link_area">
+				<a class="fb_link" href="https://www.instagram.com/eyezenjapan/?hl=ja" target="_blank">
+					<img src="img/in_top_banner1.png" alt="instagram">
+				</a>
+			</div>
+			<div id="content_nav">
+				<a href="mailto:eyezen@eyezen.jp"><img src="img/contact_top_banner1.png" alt="contact"></a>
+			</div>
+		</div>
+		<video class="masthead-video" autoplay loop muted >
+			<source src="mov/eyezen3.mp4" type="video/mp4">
+		</video>
+		<!-- <div class="mesh"></div> -->
+	</section>
+</article>
+<?php
+include($file_pass."include/nav.php");
+?>
+<article id="about_contents">
+	<div class="title_box">
+		<h1 id="about" class="befor_line">
+			<span>ABOUT US</span>
+		</h1>
+	</div>
+	<div id="about_box" class="content_w">
+		<div id="about_text">
+			<span class="font_b" style="font-size: 24px;">☆EYEZENとは</span><br>
+アイゼンは、幅広いジャンルのＴＶ番組やCM、プロモーションビデオの撮影会社から始まり “目の前の一瞬を切り取る”をモットーに12期目を迎え新たにクリエイティブ部（<a class="tsuki_link" href="https://tsuki2019.jp/" target="_blank">TSUKI Filmade Office</a>）を創設し<br>
+企画・演出・制作・撮影・編集など すべてワンストップでの対応が可能。
+意思の疎通、イメージ共有、問題解決のスピードアップ、コスト削減など、様々なメリット生み出し、スムーズな映像づくりを実現しています。<br><br>
+映像制作は、テレビ番組からCM、VP、スポーツ・音楽中継まで多岐に渡ります。<br><br>
+最近では、中継業務も増えており、<br>
+（LIVE.コンサート.スポーツなど）中継車を使用しないキャリングセッティングでの中継スタイル、配信システムをいち早く確立しております。<br><br>
+さらに、ハイエンドシネマカメラであるRED GEMINIやKOMODO、RONINやレール、ジブ、ドローンなども準備しており、映画やドラマ、CM、MVなどの撮影にも対応しております。<br><br>
+そのための技術を磨き、積み上げてきた経験と、新しい感覚で、誰もが笑顔になれる映像作品を提供していきます。<br>
+今日よりも“ちょっと笑える明日”を。私たちは、そんな映像のチカラを信じています。
+		</div>
+		<!-- <div class="more_box mt30">
+			<div id="about_open" class="button1">
+				MORE
+			</div>
+		</div>
+		<div id="about_text2">
+			MORE以降の内容を入れる
+		</div> -->
+	</div>
+</article>
+<script type="text/javascript">
+$(function(){
+	$('a.slide[href^=#]').click(function() {
+		// スクロールの速度
+		var speed = 700; // ミリ秒
+		// アンカーの値取得
+		var href= $(this).attr("href");
+		// 移動先を取得
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		// 移動先を数値で取得
+		var position = target.offset().top - 40;
+		// スムーススクロール
+		$('body,html').animate({scrollTop:position}, speed, 'swing');
+		return false;
+   });
+});
+</script>
+<script type="text/javascript" src="<?php echo $site_url ?>js/slick.min.js"></script>
+<article id="gallery_contents">
+	<div class="title_box">
+		<h1 id="gallery" class="befor_line">
+			<span>GALLERY</span>
+		</h1>
+	</div>
+	<?php
+	$type_top = 1;
+	include($file_pass."include/gallery_top.php");
+	?>
+</article>
+<article id="technique_contents">
+	<div class="title_box">
+		<h1 id="technique" class="befor_line">
+			<span>TECHNIQUE</span>
+		</h1>
+	</div>
+	<?php
+	$type_top = 1;
+	include($file_pass."include/actual_contents_top.php");
+	?>
+</article>
+<article id="products_contents">
+	<div class="title_box">
+		<h1 id="products" class="title1 befor_line">
+			<span>PRODUCTS</span>
+		</h1>
+	</div>
+	<div id="products_box" class="content_w">
+		<div id="products1">
+			<div id="products1_title" class="lines-on-sides">
+				業務内容
+			</div>
+			<dl class="products1_list">
+				<dt class="line_top">VP・CM・インフォマーシャル</dt>
+				<dt>プロモーションビデオ、ミュージックビデオの企画・制作</dt>
+				<dt>映像編集制作</dt>
+				<dt>映像素材管理</dt>
+			</dl>
+		</div>
+		<div class="more_box mt30">
+			<a href="<?php echo $site_url ?>products">MORE</a>
+		</div>
+	</div>
+</article>
+<article id="recruit_contents">
+	<div class="title_box">
+		<h1 id="recruit" class="title1 befor_line">
+			<span>RECRUIT</span>
+		</h1>
+	</div>
+	<div id="recruit_box" class="content_w">
+		<div id="recruit_text">
+			EYEZENで一緒に働く仲間を募集中
+		</div>
+		<div class="more_box mt30">
+			<a href="<?php echo $site_url ?>recruit">MORE</a>
+		</div>
+	</div>
+</article>
+
+
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		//読み込まれたらとりあえず実行
+		setSize();
+		fullscreen();
+		//リサイズしたら実行
+		$(window).resize(function(){
+		   setSize();
+		   fullscreen();
+		});
+		$('.masthead-video').coverVid(1920, 1080);
+	});
+	function fullscreen() {
+		var masthead = $('.masthead');
+		var windowH = $(window).height();
+		var windowW = $(window).width();
+
+		masthead.width(windowW);
+		masthead.height(windowH);
+	}
+	function setSize() {
+		var h = $(window).height();
+		$('.mesh').css({"height":h});
+
+		var company_name_h = $('#company_name').outerHeight(true);
+		var company_data1_h = $('#company_data1').outerHeight(true);
+		var company_data2_h = $('#company_data2').outerHeight(true);
+		var sns_area_h = $('#footer_sns_area').outerHeight(true);
+
+		var contact_box_h = $('#contact_box').outerHeight(true);
+
+		var eyezen_map = company_name_h+company_data1_h+company_data2_h+sns_area_h+contact_box_h;
+		$('#eyezen_map').css({"height":eyezen_map});
+	}
+
+	$(function() {
+		$("#about_open").click(function(){
+		  if($("#about_text2").hasClass("open_text")){ // クリックされた要素がclickedクラスだったら
+		    $("#about_text2").removeClass("open_text");
+		  }else{
+		    $("#about_text2").addClass("open_text");
+		  }
+		});
+		$("#machinery_open").click(function(){
+		  if($(".machinery_hide").hasClass("open_text")){ // クリックされた要素がclickedクラスだったら
+		    $(".machinery_hide").removeClass("open_text");
+		  }else{
+		    $(".machinery_hide").addClass("open_text");
+		  }
+		});
+		$("#technique_open").click(function(){
+		  if($(".technique_hide").hasClass("open_text")){ // クリックされた要素がclickedクラスだったら
+		    $(".technique_hide").removeClass("open_text");
+		  }else{
+		    $(".technique_hide").addClass("open_text");
+		  }
+		});
+	});
+</script>
+
+
+
+<!-- Google map code from EZ Map - https://ezmap.co -->
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyA6wZTE1HEkI20Vhsx8lEU-nia4ZOCMGo0'></script>
+<script>
+  function init() {
+    var mapOptions = { "center": {  "lat": 34.65697517473777,  "lng": 135.49743614385716 }, "clickableIcons": false, "disableDoubleClickZoom": false, "draggable": true, "fullscreenControl": false, "keyboardShortcuts": false, "mapMaker": false, "mapTypeControl": false, "mapTypeControlOptions": {  "text": "Dropdown",  "style": 2 }, "mapTypeId": "roadmap", "rotateControl": true, "scaleControl": false, "scrollwheel": false, "streetViewControl": true, "styles": [  {   "featureType": "all",   "elementType": "all",   "stylers": [    {     "saturation": "-100"    },    {     "lightness": "25"    }   ]  },  {   "featureType": "administrative.land_parcel",   "elementType": "geometry",   "stylers": [    {     "hue": "#0cff00"    }   ]  },  {   "featureType": "landscape",   "elementType": "all",   "stylers": [    {     "visibility": "on"    },    {     "hue": "#ff0000"    }   ]  },  {   "featureType": "landscape.natural",   "elementType": "all",   "stylers": [    {     "visibility": "on"    }   ]  },  {   "featureType": "landscape.natural.landcover",   "elementType": "all",   "stylers": [    {     "color": "#f92323"    }   ]  },  {   "featureType": "landscape.natural.terrain",   "elementType": "all",   "stylers": [    {     "hue": "#ff0000"    }   ]  },  {   "featureType": "water",   "elementType": "all",   "stylers": [    {     "color": "#384f70"    }   ]  } ], "zoom": 15, "zoomControl": true
+	};
+    var mapElement = document.getElementById('eyezen_map');
+    var map = new google.maps.Map(mapElement, mapOptions);
+    var marker0 = new google.maps.Marker({title: "株式会社EYEZEN", icon: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png", position: new google.maps.LatLng(34.6561809, 135.49748610000006), map: map});
+	var infowindow0 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">株式会社EYEZEN</h3><p><span class=\"infoEmail\"><a href=\"mailto:eyezen@eyezen.jp\">eyezen@eyezen.jp</a><br></span><span class=\"infoTelephone\">06-6599-8030</span></p>",map: map});
+	marker0.addListener('click', function () { infowindow0.open(map, marker0) ;});infowindow0.close();
+  }
+  google.maps.event.addDomListener(window, 'load', init);
+</script>
+<!-- End of EZ Map code - https://ezmap.co -->

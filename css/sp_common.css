@@ -1,0 +1,215 @@
+@font-face {
+  font-family: '5x5dots';
+  src: url("../fonts/5x5dots.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'migmix1p';
+  src: url("../fonts/ipaexg.ttf") format("truetype");
+}
+/*****************************
+ base
+******************************/
+article, nav, footer {
+  min-width: 100%;
+}
+
+.title_box {
+  padding-top: 30px;
+}
+
+.befor_line:before {
+  height: 60px;
+  top: -20px;
+}
+
+h1#about,
+h1#gallery,
+h1#technique,
+h1#products,
+h1#about_title,
+h1#company_title,
+h1#products_title,
+h1#flow_title,
+h1#recruit_title,
+h1.title1 {
+  width: 90%;
+  font-size: 30px;
+  font-size: 1.875rem;
+}
+
+#top_header img {
+  width: 100%;
+}
+
+#page_name {
+  font-size: 20px;
+  font-size: 1.25rem;
+  padding: 15px 30px;
+  width: 50%;
+  text-align: center;
+}
+
+/*****************************
+ modal
+******************************/
+.mm_box .mfp-close {
+  top: -30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mm_box {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mm_title {
+  font-family: '5x5dots','migmix1p',"Myriad Pro", "Trebuchet MS", sans-serif;
+  color: #FFF;
+  z-index: 1000;
+  position: relative;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.mm_area {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.mm_area iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mm_sub_text {
+  color: #FFF;
+  margin: 10px 0;
+}
+
+.popup-modal-dismiss a {
+  border: 1px solid #FFF;
+  padding: 10px 20px;
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+}
+.popup-modal-dismiss a:hover {
+  background: #FFF;
+  color: #000;
+}
+
+/**************************************
+            footer
+**************************************/
+#footer_company_area {
+  text-align: center;
+}
+#footer_company_area #company_name {
+  font-size: 25px;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  padding-top: 30px;
+}
+#footer_company_area #company_data1 {
+  display: flex;
+  font-size: 16px;
+  font-size: 1rem;
+  justify-content: center;
+  margin-top: 30px;
+}
+#footer_company_area #company_data1 img {
+  width: 23px;
+}
+#footer_company_area #company_data1 ul {
+  display: flex;
+  flex-direction: row;
+}
+#footer_company_area #company_data1 li {
+  display: flex;
+  align-items: center;
+  margin: 6px;
+}
+#footer_company_area #company_data2 {
+  font-size: 16px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+#footer_company_area #contact_box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footer_company_area #contact_box #contact_text {
+  font-size: 22px;
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+#footer_company_area #contact_box a {
+  background: #FFF;
+  color: #000;
+  font-size: 23px;
+  font-size: 1.4375rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 5px auto;
+  padding: 10px 0px 10px 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  background-image: url(../img/mail_icon.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 30px center;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#footer_company_area #contact_box a:hover {
+  background: #F00;
+  color: #fff;
+  background-image: url(../img/mail_icon_w.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 30px center;
+}
+#footer_company_area #contact_box img {
+  width: 40px;
+  margin-right: 10px;
+}
+#footer_company_area #footer_sns_area,
+#footer_company_area #footer_sns_area2,
+#footer_company_area #footer_sns_area3 {
+  margin-top: 20px;
+}
+#footer_company_area #footer_sns_area a,
+#footer_company_area #footer_sns_area2 a,
+#footer_company_area #footer_sns_area3 a {
+  width: 335px;
+  margin: 0 auto;
+}
+#footer_company_area #footer_sns_area img,
+#footer_company_area #footer_sns_area2 img,
+#footer_company_area #footer_sns_area3 img {
+  width: 100%;
+}
+
+#footer_sns_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/**************************************
+            footer
+**************************************/

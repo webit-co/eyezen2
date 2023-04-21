@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@import "compass";
+@import "mixin.scss";
+
+/**************************************
+            ナビ
+**************************************/
+#top_main_nav {
+  z-index: 5;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  @include font-size(23);
+  font-weight:bold;
+  font-family:'5x5dots','migmix1p',"Myriad Pro", "Trebuchet MS", sans-serif;
+  background: rgba(0, 0, 0, 0.46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin:0 0 0 auto;
+  }
+  li.each_nav {
+    a{
+      color:#FFF;
+      text-decoration: none;
+      @include transition(.4s);
+      &:hover {
+        color:#F00;
+        text-decoration: underline;
+      }
+    }
+  }
+  #content_nav {
+    background: #FFF;
+    line-height: 0;
+    width: 90px;
+    height: 50px;
+    background-image: url(../img/contact_button.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    @include transition(.4s);
+    &:hover {
+      background-color: #F00;
+      background-image: url(../img/contact_button_w.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+    a {
+      height: 100%;
+    }
+  }
+}
+#nav_log {
+  img {
+    width: 180px;
+  }
+}

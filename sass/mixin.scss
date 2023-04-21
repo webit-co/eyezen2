@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+// font-size remで指定
+@mixin font-size($size: 13, $base: 16) {
+    font-size: $size + px;
+    font-size: $size / $base * 1rem;
+}
+
+// PC用
+$main_color: #3e3e3e;
+
+
+//共通
+$text_color: #6d6d6d;
+
+
+// SVG指定も出力するように(IE9用)
+$experimental-support-for-svg: true;
+
+// 色を登録しておくよ
+$bottomColor: #f65b7b;
+$topColor: lighten($bottomColor, 10%);
+
+
+@font-face {
+  font-family: '5x5dots';
+  src: url('../fonts/5x5dots.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'migmix1p';
+  src: url('../fonts/ipaexg.ttf') format('truetype');
+}
+
+//アニメーション用
+@mixin animation($animation-name) {
+  -webkit-animation: $animation-name;
+  -moz-animation: $animation-name;
+  animation: $animation-name;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
