@@ -62,12 +62,15 @@ include($file_pass."include/nav.php");
 		          	<p class="address">大阪オフィス(技術部・制作部)<br>
 					〒556-0015 大阪府大阪市浪速区敷津西2-1-12 YKビル６階</p>
 		          </dd>
+			  <dt>TEL ／ FAX</dt>
+	          	<dd>06-6599-8030 ／ 06-6599-8032</dd>
+			  <dt>所在地</dt>	  
 		          <dd>
 		          	<p class="address">東京オフィス<br>
 					〒162-0845 東京都新宿区市谷本村町2-10 STREAM ICHIGAYA 901</p>
 		          </dd>
-	          <dt>TEL ／ FAX</dt>
-	          	<dd>06-6599-8030 ／ 06-6599-8032</dd>
+	          <dt>TEL</dt>
+	          	<dd>03-6280-7979</dd>
 	          <dt>資本金</dt>
 	          	<dd>1000万円</dd>
 	          <dt>設立</dt>
