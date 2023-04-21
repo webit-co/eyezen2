@@ -57,16 +57,16 @@ include($file_pass."include/nav.php");
 	          <dt>役員</dt>
 	         	 <dd>代表取締役 松宮 周史<br>
 	          		 取締役 坂本 泰司</dd>
-	          <dt>所在地</dt>
-		          <dd>
-		          	<p class="address">大阪オフィス(技術部・制作部)<br>
+	          <dt class="adress_mt">所在地</dt>
+		          <dd class="adressbar">
+		          	<p class="address02">大阪オフィス(技術部・制作部)<br>
 					〒556-0015 大阪府大阪市浪速区敷津西2-1-12 YKビル６階</p>
 		          </dd>
 			  <dt>TEL ／ FAX</dt>
 	          	<dd>06-6599-8030 ／ 06-6599-8032</dd>
-			  <dt>所在地</dt>	  
-		          <dd>
-		          	<p class="address">東京オフィス<br>
+			  <dt class="adress_mt">所在地</dt>	  
+		          <dd class="adressbar">
+		          	<p class="address02">東京オフィス<br>
 					〒162-0845 東京都新宿区市谷本村町2-10 STREAM ICHIGAYA 901</p>
 		          </dd>
 	          <dt>TEL</dt>

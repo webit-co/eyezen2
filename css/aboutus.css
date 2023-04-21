@@ -3152,6 +3152,18 @@ h1.title1 span {
   padding-left: 1em;
 }
 
+#about_text .address, #company_text .address02 {
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+#company_contents dl.list dt.adress_mt {
+  margin-top: 5px;
+}
+
 #access_text {
   line-height: 2.2;
   margin: 30px auto 0 auto;
@@ -3173,6 +3185,10 @@ h1.title1 span {
 #company_contents dl.list dd {
   padding-left: 12em;
   border-bottom: dotted 1px #ff0708;
+}
+
+#company_contents dl.list dd.adressbar {
+  border-bottom: none;
 }
 
 .office_title {
