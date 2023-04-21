@@ -3352,6 +3352,12 @@ dl.list dd a {
   text-align: center;
 }
 
+.office_title02 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .lines-on-sides {
   color: #FFF;
   display: flex;
