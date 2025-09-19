@@ -12,11 +12,11 @@
 					<img src="img/yt_top_banner1.png" alt="youtube">
 				</a>
 			</div>
-			<div id="fb_link_area">
+			<!-- <div id="fb_link_area">
 				<a class="fb_link" href="https://www.facebook.com/eyezen2010" target="_blank">
 					<img src="img/fb_top_banner1.png" alt="facebook">
 				</a>
-			</div>
+			</div> -->
 			<div id="fb_link_area">
 				<a class="fb_link" href="https://www.instagram.com/eyezenjapan/?hl=ja" target="_blank">
 					<img src="img/in_top_banner1.png" alt="instagram">
@@ -44,15 +44,19 @@ include($file_pass."include/nav.php");
 	<div id="about_box" class="content_w">
 		<div id="about_text">
 			<span class="font_b" style="font-size: 24px;">☆EYEZENとは</span><br>
-アイゼンは、幅広いジャンルのＴＶ番組やCM、プロモーションビデオの撮影会社から始まり “目の前の一瞬を切り取る”をモットーに12期目を迎え新たにクリエイティブ部（<a class="tsuki_link" href="https://tsuki2019.jp/" target="_blank">TSUKI Filmade Office</a>）を創設し<br>
-企画・演出・制作・撮影・編集など すべてワンストップでの対応が可能。
-意思の疎通、イメージ共有、問題解決のスピードアップ、コスト削減など、様々なメリット生み出し、スムーズな映像づくりを実現しています。<br><br>
-映像制作は、テレビ番組からCM、VP、スポーツ・音楽中継まで多岐に渡ります。<br><br>
-最近では、中継業務も増えており、<br>
-（LIVE.コンサート.スポーツなど）中継車を使用しないキャリングセッティングでの中継スタイル、配信システムをいち早く確立しております。<br><br>
-さらに、ハイエンドシネマカメラであるRED GEMINIやKOMODO、RONINやレール、ジブ、ドローンなども準備しており、映画やドラマ、CM、MVなどの撮影にも対応しております。<br><br>
-そのための技術を磨き、積み上げてきた経験と、新しい感覚で、誰もが笑顔になれる映像作品を提供していきます。<br>
-今日よりも“ちょっと笑える明日”を。私たちは、そんな映像のチカラを信じています。
+			EYEZENは、「撮影部」から始まり「企画・演出」「制作」「編集・CG」まで手がける総合制作会社です。<br>
+			制作のお問合せは、EYEZENクリエイティブ部（<a class="tsuki_link" href="https://tsuki2019.jp/" target="_blank">TSUKI Filmade Office</a>）まで。<br>
+			<br>
+			CM、Web動画、企業プロモーション、MV、テレビ番組、スポーツ・ライブ中継、配信など
+			<br>
+			各映像ジャンルに精通した経験豊富なスタッフが、真摯にプロフェッショナルに対応いたします。
+			<br><br>
+			制作ワークフローをすべて社内でシームレスに行えるため、<br>
+			スピード感、コスト感など様々なメリットを実現し、<br>
+			高コストパフォーマンス＆ハイクオリティな映像作品を生み出しています。<br><br>
+			“今日よりもちょっと笑える明日”を。<br><br>
+			そのための感性と技術を磨き、積み上げてきた経験とチャレンジングスピリットで<br>
+			携わってくれたみんなが笑顔になれる映像づくりを目指していきます。<br>
 		</div>
 		<!-- <div class="more_box mt30">
 			<div id="about_open" class="button1">
@@ -96,15 +100,26 @@ $(function(){
 <article id="technique_contents">
 	<div class="title_box">
 		<h1 id="technique" class="befor_line">
-			<span>TECHNIQUE</span>
+			<span>WORKS (LIVE)</span>
 		</h1>
 	</div>
 	<?php
 	$type_top = 1;
-	include($file_pass."include/actual_contents_top.php");
+	include($file_pass."include/actual_contents_top_live.php");
 	?>
 </article>
 <article id="products_contents">
+	<div class="title_box">
+		<h1 id="products" class="befor_line">
+			<span>WORKS (ENG)</span>
+		</h1>
+	</div>
+	<?php
+	$type_top = 1;
+	include($file_pass."include/actual_contents_top_eng.php");
+	?>
+</article>
+<!-- <article id="products_contents">
 	<div class="title_box">
 		<h1 id="products" class="title1 befor_line">
 			<span>PRODUCTS</span>
@@ -126,7 +141,7 @@ $(function(){
 			<a href="<?php echo $site_url ?>products">MORE</a>
 		</div>
 	</div>
-</article>
+</article> -->
 <article id="recruit_contents">
 	<div class="title_box">
 		<h1 id="recruit" class="title1 befor_line">

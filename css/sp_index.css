@@ -143,6 +143,7 @@ h1 {
 h1#about,
 h1#gallery,
 h1#technique,
+h1#works-eng,
 h1#products,
 h1#about_title,
 h1#company_title,
@@ -161,6 +162,7 @@ h1.title1 {
 h1#about span,
 h1#gallery span,
 h1#technique span,
+h1#works-eng span,
 h1#products span,
 h1#about_title span,
 h1#company_title span,
@@ -3153,6 +3155,43 @@ h1.title1 {
   height: 100%;
 }
 
+.mm_area .frame {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.mm_area .frame img {
+  width: 100%;
+}
+
+.mm_area > .frame::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.2705882353);
+  width: 70px;
+  height: 70px;
+}
+
+.mm_area > .frame::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  border-style: solid;
+  border-color: transparent transparent transparent #ffffff;
+  border-width: 15px 0 15px 25px;
+}
+
 .mm_sub_text {
   color: #FFF;
   margin: 10px 0;
@@ -3351,12 +3390,12 @@ h1.title1 {
 }
 #gallery_category > li .category_title {
   font-size: 16px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 1;
+  line-height: 1.4;
 }
 
 .gallery_list {
@@ -3433,6 +3472,20 @@ h1.title1 {
 }
 
 #technique_contents::before {
+  background: url(../img/sp/works_back.jpg) no-repeat center;
+  background-size: cover;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 108px;
+  content: "";
+  z-index: -1;
+}
+
+#works-eng_contents::before {
   background: url(../img/sp/works_back.jpg) no-repeat center;
   background-size: cover;
   display: block;
@@ -3666,3 +3719,13 @@ dl.products1_list .line_top {
 /**************************************
             recruit
 **************************************/
+
+/**************************************
+        footer追加css
+**************************************/
+
+#footer_company_area #company_data1 {
+  margin-top: 8px;
+  line-height: 1.2;
+  font-size: 1.3rem;
+  }

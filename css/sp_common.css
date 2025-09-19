@@ -213,3 +213,9 @@ h1.title1 {
 /**************************************
             footer
 **************************************/
+
+#footer_company_area #company_data1 {
+  margin-top: 8px;
+  line-height: 1.2;
+  font-size: 1.3rem;
+  }

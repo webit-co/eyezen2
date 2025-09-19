@@ -2,15 +2,61 @@
 	<ul id="gallery_category">
 		<li>
 			<div class="category_title">
-				PV
+			CM・プロモーション
 			</div>
 			<div class="gallery_list variable-width">
 				<div class="each_move">
-					<a class="popup-modal" href="popup-modal/CHERRY-BLOSSOM-2020.php">
-						<img src="https://i.ytimg.com/vi/gIQXu7y-zdA/mqdefault.jpg" alt="">
+					<a class="popup-modal" href="popup-modal/nature.php">
+					<img src="img/movie-thumbnail/nature.jpg" alt="">
 						<div class="click_mask">
 							<div class="mask_move_title text">
-								CHERRY BLOSSOM 2020 IN JAPAN
+							Nature Lab.「グルーヴィ泡洗顔」
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/mitukan.php">
+					<img src="img/movie-thumbnail/mitukan.jpg" alt="">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							ミツカンかおりの蔵
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/toushi.php">
+					<img src="img/movie-thumbnail/toushi.jpg" alt="">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							日本証券業協会「とうしハイスクール」
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="category_title">
+				MV
+			</div>
+			<div class="gallery_list variable-width">
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/ego-apartment.php">
+						<img src="http://img.youtube.com/vi/HX3OXAfprDg/maxresdefault.jpg" alt="">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							ego apartment-Call me
 							</div>
 							<div class="click_text">
 								click!
@@ -20,10 +66,10 @@
 				</div>
 				<div class="each_move">
 					<a class="popup-modal" href="popup-modal/BOUNO.php">
-						<img src="https://i.ytimg.com/vi/6yQTaroDFE0/mqdefault.jpg" alt="">
+					<img src="http://img.youtube.com/vi/vRiFYgEI85U/maxresdefault.jpg" alt="">
 						<div class="click_mask">
 							<div class="mask_move_title text">
-								BOUNO!Pizzeria Carole
+							gato -××(check,check)
 							</div>
 							<div class="click_text">
 								click!
@@ -33,10 +79,10 @@
 				</div>
 				<div class="each_move">
 					<a class="popup-modal" href="popup-modal/hotelsobial.php">
-						<img src="https://i.ytimg.com/vi/fUd6RUNPjwY/mqdefault.jpg" alt="">
+					<img src="http://img.youtube.com/vi/w6tRrh53LSc/maxresdefault.jpg" alt="">
 						<div class="click_mask">
 							<div class="mask_move_title text">
-								ホテル　ソビアル
+							gato - ZOMBIEEZ (feat.JUBEE)
 							</div>
 							<div class="click_text">
 								click!
@@ -48,15 +94,114 @@
 		</li>
 		<li>
 			<div class="category_title">
-				4K
+				ドラマ
+			</div>
+			<div class="gallery_list variable-width">
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/moteru.php">
+					<img src="http://img.youtube.com/vi/UDin0GzDi24/maxresdefault.jpg" alt="">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							女盛り考察記 全30話
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="category_title">
+			CG・アニメーション
+			</div>
+			<div class="gallery_list variable-width">
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/kinki.php">
+					<img src="http://img.youtube.com/vi/augmebB2VvA/maxresdefault.jpg" alt="">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							近畿司法書士会連合会「墨絵CM」篇
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/blender.php">
+					<img src="http://img.youtube.com/vi/NnsCVX2L7mw/maxresdefault.jpg" alt="">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							「Blender test07 | CG」
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="category_title">
+			ORIGINAL CONTENTS
+			</div>
+			<div class="gallery_list variable-width">
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/BOUNO.php">
+					<img src="https://i.ytimg.com/vi/6yQTaroDFE0/mqdefault.jpg" alt="">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							BOUNO!Pizzeria Carole
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/CHERRY-BLOSSOM-2020.php">
+					<img src="https://i.ytimg.com/vi/gIQXu7y-zdA/mqdefault.jpg" alt="">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							CHERRY BLOSSOM 2020 IN JAPAN
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="each_move">
+					<a class="popup-modal" href="popup-modal/tabiyado.php">
+					<img src="http://img.youtube.com/vi/LQntY7cDR7s/maxresdefault.jpg" alt="私が愛した旅の宿 | TEASER">
+						<div class="click_mask">
+							<div class="mask_move_title text">
+							私が愛した旅の宿 | TEASER
+							</div>
+							<div class="click_text">
+								click!
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="category_title">
+			ドローン
 			</div>
 			<div class="gallery_list variable-width">
 				<div class="each_move">
 					<a class="popup-modal" href="popup-modal/hong-kong-4k.php">
-						<img src="https://i.ytimg.com/vi/VsFBMMfqYNU/mqdefault.jpg" alt="">
+					<img src="https://i.ytimg.com/vi/VsFBMMfqYNU/mqdefault.jpg" alt="">
 						<div class="click_mask">
 							<div class="mask_move_title text">
-								Hong Kong 4K
+							Flying over Hong Kong
 							</div>
 							<div class="click_text">
 								click!
@@ -65,90 +210,11 @@
 					</a>
 				</div>
 				<div class="each_move">
-					<a class="popup-modal" href="popup-modal/masutang.php">
-						<img src="https://i.ytimg.com/vi/G0AdukFDz7M/mqdefault.jpg" alt="">
+					<a class="popup-modal" href="popup-modal/over-w.php">
+					<img src="http://img.youtube.com/vi/iYB5JU90KQU/maxresdefault.jpg" alt="">
 						<div class="click_mask">
 							<div class="mask_move_title text">
-								マスタングCM 4K in USA
-							</div>
-							<div class="click_text">
-								click!
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class="category_title">
-				ドローン
-			</div>
-			<div class="gallery_list variable-width">
-				<div class="each_move">
-					<a class="popup-modal" href="popup-modal/drone-reel-2019.php">
-						<img src="https://i.ytimg.com/vi/heYpi8eSItw/mqdefault.jpg" alt="">
-						<div class="click_mask">
-							<div class="mask_move_title text">
-								drone reel 2019
-							</div>
-							<div class="click_text">
-								click!
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="each_move">
-					<a class="popup-modal" href="popup-modal/hong-kong-4k.php">
-						<img src="https://i.ytimg.com/vi/VsFBMMfqYNU/mqdefault.jpg" alt="">
-						<div class="click_mask">
-							<div class="mask_move_title text">
-								Hong Kong 4K
-							</div>
-							<div class="click_text">
-								click!
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="each_move">
-					<a class="popup-modal" href="popup-modal/masutangu-cm.php">
-						<img src="https://i.ytimg.com/vi/G0AdukFDz7M/mqdefault.jpg" alt="">
-						<div class="click_mask">
-							<div class="mask_move_title text">
-								マスタングCM 4K in USA
-							</div>
-							<div class="click_text">
-								click!
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="each_move">
-					<a class="popup-modal" href="popup-modal/artlake.php">
-						<img src="https://i.ytimg.com/vi/VB17iKmYJl8/mqdefault.jpg" alt="">
-						<div class="click_mask">
-							<div class="mask_move_title text">
-								アートレイクゴルフ倶楽部
-							</div>
-							<div class="click_text">
-								click!
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class="category_title">
-				VTR
-			</div>
-			<div class="gallery_list variable-width">
-				<div class="each_move">
-					<a class="popup-modal" href="popup-modal/amazing_hongkong_macau.php">
-						<img src="https://i.ytimg.com/vi/z-Lz_4X2T3s/mqdefault.jpg" alt="AMAZING HONGKONG MACAU">
-						<div class="click_mask">
-							<div class="mask_move_title text">
-								AMAZING HONGKONG MACAU
+							Flying over the World
 							</div>
 							<div class="click_text">
 								click!

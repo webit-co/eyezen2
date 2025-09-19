@@ -52,7 +52,8 @@
 	          <dt>選考プロセス</dt>
 	          	<dd>
 	          		弊社求人情報に興味を持っていただけましたら、こちらからご応募下さい。<br>
-					書類選考後、追ってこちらからご連絡させていただきます。
+					書類選考後、追ってこちらからご連絡させていただきます。<br>
+					<a class="tsuki_link" href="https://youtu.be/WTvcxac6NQQ" target="_blank">2023年度の社員旅行の様子</a>
 					<div id="mail_to_button">
 						<a href="mailto:eyezen@eyezen.jp">応募する</a>
 					</div>

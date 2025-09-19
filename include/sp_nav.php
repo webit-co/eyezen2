@@ -16,11 +16,19 @@
 					<li>
 						<a href="<?php echo $site_url ?>gallery">GALLERY</a>
 					</li>
+					<?php if(0):?>
 					<li>
 						<a href="<?php echo $site_url ?>technique">TECHNIQUE</a>
 					</li>
+					<?php endif ;?>
 					<li>
-						<a href="<?php echo $site_url ?>products">PRODUCTS</a>
+						<a href="<?php echo $site_url ?>works-live">WORKS(LIVE)</a>
+					</li>
+					<li>
+						<a href="<?php echo $site_url ?>works-eng">WORKS(ENG)</a>
+					</li>
+					<li>
+						<a href="<?php echo $site_url ?>equipment">EQUIPMENT</a>
 					</li>
 					<li>
 						<a href="<?php echo $site_url ?>recruit">RECRUIT</a>

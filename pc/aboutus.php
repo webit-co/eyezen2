@@ -5,7 +5,7 @@
 		</h1>
 		<div id="top_video_wap">
 			<video class="masthead-video" autoplay loop muted >
-				<source src="mov/eyezen.mp4" type="video/mp4">
+				<source src="mov/eyezen4.mp4" type="video/mp4">
 			</video>
 		</div>
 		<div class="mesh backb"></div>
@@ -23,23 +23,20 @@ include($file_pass."include/nav.php");
 	<div id="about_box" class="content_w">
 		<div id="about_text">
 			<span class="font_b" style="font-size: 24px;">☆EYEZENとは</span><br>
-			アイゼンは、幅広いジャンルのＴＶ番組やCM、プロモーションビデオの撮影会社から始まり “目の前の一瞬を切り取る”をモットーに12期目を迎え新たにクリエイティブ部
-			（<a class="tsuki_link" href="https://tsuki2019.jp/" target="_blank">TSUKI Filmade Office</a>）を創設し 企画・演出・制作・撮影・編集をトータルで手がける総合映像プロダクションになりました。
-そのため、
-意思の疎通、イメージ共有、問題解決のスピードアップ、コスト削減など、様々なメリット生み出し、すべてワンストップでスムーズな映像づくりを実現しています。
+			EYEZENは、「撮影部」から始まり「企画・演出」「制作」「編集・CG」まで手がける総合制作会社です。<br>
+			制作のお問合せは、EYEZENクリエイティブ部（<a class="tsuki_link" href="https://tsuki2019.jp/" target="_blank">TSUKI Filmade Office</a>）まで。<br>
 			<br>
+			CM、Web動画、企業プロモーション、MV、テレビ番組、スポーツ・ライブ中継、配信など
 			<br>
-			映像制作は、テレビ番組からCM、VP、ドラマ、スポーツ・音楽中継まで多岐に渡ります。
+			各映像ジャンルに精通した経験豊富なスタッフが、真摯にプロフェッショナルに対応いたします。
 			<br><br>
-			最近では、<br>
-			LIVE.コンサート.スポーツなどの<br>
-			中継業務も増えており、中継車を使用しない最大8カメまでのキャリングシステムでの中継スタイル、<br>
-			配信システムをいち早く確立しています。<br><br>
+			制作ワークフローをすべて社内でシームレスに行えるため、<br>
+			スピード感、コスト感など様々なメリットを実現し、<br>
+			高コストパフォーマンス＆ハイクオリティな映像作品を生み出しています。<br><br>
+			“今日よりもちょっと笑える明日”を。<br><br>
+			そのための感性と技術を磨き、積み上げてきた経験とチャレンジングスピリットで<br>
+			携わってくれたみんなが笑顔になれる映像づくりを目指していきます。<br>
 
-			さらに、ハイエンドシネマカメラであるRED GEMINIやKOMODO、RONINやレール、ジブ、ドローンなども準備しており、<br>映画やドラマ、CM、MVなどの撮影にも対応しております。
-			そのための技術を磨き、積み上げてきた経験と、新しい感覚で、<br>誰もが笑顔になれる映像作品を提供していきます。
-			<br><br>
-			今日よりも“ちょっと笑える明日”を。私たちは、そんな映像のチカラを信じています。
 		</div>
 	</div>
 </article>
@@ -76,9 +73,9 @@ include($file_pass."include/nav.php");
 	          <dt>設立</dt>
 	          	<dd>2010年７月</dd>
 	          <dt>社員数</dt>
-	          	<dd>20名</dd>
+	          	<dd>22名</dd>
 	          <dt>主要取引先</dt>
-	          	<dd>朝日放送テレビ、関西テレビ、毎日放送、ＮＨＫ、TBSテレビ、フジテレビ、札幌テレビ<br>読売テレビ、テレビ大阪、テレビ東京、SKY-A<br>
+	          	<dd>朝日放送テレビ、関西テレビ、毎日放送、ＮＨＫ、TBSテレビ、フジテレビ、札幌テレビ<br>読売テレビ、テレビ大阪、テレビ東京、スカイA<br>
 	            オプテージ、ベイコミニュニケーションズ<br>
 	            ＡＢＣリブラ、大河プロダクション、Abema TV</dd>
 	          <dt>業務内容</dt>
@@ -112,14 +109,14 @@ include($file_pass."include/nav.php");
 				<div class="access_company_title lines-on-sides">東京オフィス</div>
 				〒162-0845 東京都新宿区市谷本村町2-10STREAM ICHIGAYA 901
 			</div>
-			<!-- <div class="map">
+			<div class="map">
 				<div id="eyezen_map3" class="eyezen_map" style="width:60%;height:390px;"></div>
 				<div class="map_link text_c">
-					<a href="https://www.google.co.jp/maps/place/%E3%80%92107-0052+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%B5%A4%E5%9D%82%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%98%E2%88%92%EF%BC%91%EF%BC%91/@35.6689829,139.731884,17z/data=!3m1!4b1!4m5!3m4!1s0x60188b81845548fb:0x7e4bc605dc77bba0!8m2!3d35.6689829!4d139.7340727?hl=ja" target="_blank">
+					<a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4661883461276!2d139.7289775752987!3d35.690143929485174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c8aac303fa3%3A0xe8af7e7f023b9637!2z44CSMTYyLTA4NDUg5p2x5Lqs6YO95paw5a6_5Yy65biC6LC35pys5p2R55S677yS4oiS77yR77yQIFNUUkVBTSBJQ0hJR0FZQQ!5e0!3m2!1sja!2sjp!4v1706494342731!5m2!1sja!2sjp" target="_blank">
 						<img src="img/Google_maps_logo.jpg" />
 					</a>
 				</div>
-			</div> -->
+			</div>
 
 			<!-- Google map code from EZ Map - https://ezmap.co -->
 			<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyA6wZTE1HEkI20Vhsx8lEU-nia4ZOCMGo0'></script>
@@ -138,15 +135,26 @@ include($file_pass."include/nav.php");
 
 			  // マップ3 --------------
 			  function init3() {
-			    var mapOptions = { "center": {  "lat": 35.669236,  "lng": 139.734083 }, "clickableIcons": false, "disableDoubleClickZoom": false, "draggable": true, "fullscreenControl": false, "keyboardShortcuts": false, "mapMaker": false, "mapTypeControl": false, "mapTypeControlOptions": {  "text": "Dropdown",  "style": 2 }, "mapTypeId": "roadmap", "rotateControl": true, "scaleControl": false, "scrollwheel": false, "streetViewControl": true, "styles": [  {   "featureType": "all",   "elementType": "all",   "stylers": [    {     "saturation": "-100"    },    {     "lightness": "25"    }   ]  },  {   "featureType": "administrative.land_parcel",   "elementType": "geometry",   "stylers": [    {     "hue": "#0cff00"    }   ]  },  {   "featureType": "landscape",   "elementType": "all",   "stylers": [    {     "visibility": "on"    },    {     "hue": "#ff0000"    }   ]  },  {   "featureType": "landscape.natural",   "elementType": "all",   "stylers": [    {     "visibility": "on"    }   ]  },  {   "featureType": "landscape.natural.landcover",   "elementType": "all",   "stylers": [    {     "color": "#f92323"    }   ]  },  {   "featureType": "landscape.natural.terrain",   "elementType": "all",   "stylers": [    {     "hue": "#ff0000"    }   ]  },  {   "featureType": "water",   "elementType": "all",   "stylers": [    {     "color": "#384f70"    }   ]  } ], "zoom": 15, "zoomControl": true
+			    var mapOptions = { "center": {  "lat": 35.69016922687156,  "lng": 139.73157663633577 }, "clickableIcons": false, "disableDoubleClickZoom": false, "draggable": true, "fullscreenControl": false, "keyboardShortcuts": false, "mapMaker": false, "mapTypeControl": false, "mapTypeControlOptions": {  "text": "Dropdown",  "style": 2 }, "mapTypeId": "roadmap", "rotateControl": true, "scaleControl": false, "scrollwheel": false, "streetViewControl": true, "styles": [  {   "featureType": "all",   "elementType": "all",   "stylers": [    {     "saturation": "-100"    },    {     "lightness": "25"    }   ]  },  {   "featureType": "administrative.land_parcel",   "elementType": "geometry",   "stylers": [    {     "hue": "#0cff00"    }   ]  },  {   "featureType": "landscape",   "elementType": "all",   "stylers": [    {     "visibility": "on"    },    {     "hue": "#ff0000"    }   ]  },  {   "featureType": "landscape.natural",   "elementType": "all",   "stylers": [    {     "visibility": "on"    }   ]  },  {   "featureType": "landscape.natural.landcover",   "elementType": "all",   "stylers": [    {     "color": "#f92323"    }   ]  },  {   "featureType": "landscape.natural.terrain",   "elementType": "all",   "stylers": [    {     "hue": "#ff0000"    }   ]  },  {   "featureType": "water",   "elementType": "all",   "stylers": [    {     "color": "#384f70"    }   ]  } ], "zoom": 15, "zoomControl": true
 				};
 			    var mapElement = document.getElementById('eyezen_map3');
 			    var map = new google.maps.Map(mapElement, mapOptions);
-			    var marker0 = new google.maps.Marker({title: "株式会社EYEZEN", icon: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png", position: new google.maps.LatLng(35.669236, 139.734083), map: map});
+			    var marker0 = new google.maps.Marker({title: "株式会社EYEZEN", icon: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png", position: new google.maps.LatLng(35.69016922687156,139.73157663633577), map: map});
 				var infowindow0 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">株式会社EYEZEN<br>東京オフィス</h3><p><span class=\"infoEmail\"><a href=\"mailto:eyezen@eyezen.jp\">eyezen@eyezen.jp</a></span></p>",map: map});
 				marker0.addListener('click', function () { infowindow0.open(map, marker0) ;});infowindow0.close();
 			  }
 			  google.maps.event.addDomListener(window, 'load', init3);
+			  
+			 // function init3() {
+			   // var mapOptions = { "center": {  "lat": 35.669236,  "lng": 139.734083 }, "clickableIcons": false, "disableDoubleClickZoom": false, "draggable": true, "fullscreenControl": false, "keyboardShortcuts": false, "mapMaker": false, "mapTypeControl": false, "mapTypeControlOptions": {  "text": "Dropdown",  "style": 2 }, "mapTypeId": "roadmap", "rotateControl": true, "scaleControl": false, "scrollwheel": false, "streetViewControl": true, "styles": [  {   "featureType": "all",   "elementType": "all",   "stylers": [    {     "saturation": "-100"    },    {     "lightness": "25"    }   ]  },  {   "featureType": "administrative.land_parcel",   "elementType": "geometry",   "stylers": [    {     "hue": "#0cff00"    }   ]  },  {   "featureType": "landscape",   "elementType": "all",   "stylers": [    {     "visibility": "on"    },    {     "hue": "#ff0000"    }   ]  },  {   "featureType": "landscape.natural",   "elementType": "all",   "stylers": [    {     "visibility": "on"    }   ]  },  {   "featureType": "landscape.natural.landcover",   "elementType": "all",   "stylers": [    {     "color": "#f92323"    }   ]  },  {   "featureType": "landscape.natural.terrain",   "elementType": "all",   "stylers": [    {     "hue": "#ff0000"    }   ]  },  {   "featureType": "water",   "elementType": "all",   "stylers": [    {     "color": "#384f70"    }   ]  } ], "zoom": 15, "zoomControl": true
+				//};
+			    //var mapElement = document.getElementById('eyezen_map3');
+			    //var map = new google.maps.Map(mapElement, mapOptions);
+			    //var marker0 = new google.maps.Marker({title: "株式会社EYEZEN", icon: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png", position: new google.maps.LatLng(35.669236, 139.734083), map: map});
+				//var infowindow0 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">株式会社EYEZEN<br>東京オフィス</h3><p><span class=\"infoEmail\"><a href=\"mailto:eyezen@eyezen.jp\">eyezen@eyezen.jp</a></span></p>",map: map});
+				//marker0.addListener('click', function () { infowindow0.open(map, marker0) ;});infowindow0.close();
+			 // }
+			  //google.maps.event.addDomListener(window, 'load', init3);
 
 			</script>
 			<!-- End of EZ Map code - https://ezmap.co -->

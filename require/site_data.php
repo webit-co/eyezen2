@@ -16,6 +16,11 @@ if (strstr($url, '/aboutus')) {
 	$page_title = "技術|株式会社アイゼン";
 	$keywords = "";
 	$description = "";
+} elseif (strstr($url, '/equipment')) {
+	$page_name = "equipment";
+	$page_title = "機材・設備|株式会社アイゼン";
+	$keywords = "";
+	$description = "";
 } elseif (strstr($url, '/products')) {
 	$page_name = "products";
 	$page_title = "制作|株式会社アイゼン";
@@ -34,6 +39,16 @@ if (strstr($url, '/aboutus')) {
 } elseif (strstr($url, '/contact')) {
 	$page_name = "contact";
 	$page_title = "contact|株式会社アイゼン";
+	$keywords = "";
+	$description = "";
+} elseif (strstr($url, '/works-live')) {
+	$page_name = "works-live";
+	$page_title = "works-live|株式会社アイゼン";
+	$keywords = "";
+	$description = "";
+} elseif (strstr($url, '/works-eng')) {
+	$page_name = "works-eng";
+	$page_title = "works-eng|株式会社アイゼン";
 	$keywords = "";
 	$description = "";
 } elseif (strstr($url, '/works')) {

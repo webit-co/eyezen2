@@ -3080,8 +3080,9 @@ h1.title1 span {
   position: fixed;
   top: 0px;
   width: 100%;
-  font-size: 23px;
-  font-size: 1.4375rem;
+  /* font-size: 23px;
+  font-size: 1.4375rem; */
+  font-size: 1.23rem;
   font-weight: bold;
   font-family: '5x5dots','migmix1p',"Myriad Pro", "Trebuchet MS", sans-serif;
   background: rgba(0, 0, 0, 0.46);
@@ -3198,7 +3199,7 @@ h1.title1 span {
 
 .office_title02 {
   margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   text-align: center;
 }
 
@@ -3237,4 +3238,59 @@ h1.title1 span {
 .access_company_title {
   width: 60%;
   margin: 0 auto;
+}
+/**************************************
+            2024_footer修正
+**************************************/
+
+#footer_company_area #company_data1,
+#footer_company_area #company_data1-2 {
+  display: flex;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  justify-content: center;
+}
+#footer_company_area #company_data1 img,
+#footer_company_area #company_data1-2 img {
+  width: 30px;
+}
+#footer_company_area #company_data1 ul,
+#footer_company_area #company_data1-2 ul {
+  display: flex;
+  flex-direction: row;
+}
+#footer_company_area #company_data1 li,
+#footer_company_area #company_data1-2 li  {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+#other_box1 #company_data1,
+#other_box1 #company_data1-2 {
+  display: flex;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  justify-content: center;
+  margin-top: 10px;
+}
+#other_box1 #company_data1 img,
+#other_box1 #company_data1-2 img {
+  width: 30px;
+}
+#other_box1 #company_data1 ul,
+#other_box1 #company_data1-2 ul {
+  display: flex;
+  flex-direction: row;
+}
+#other_box1 #company_data1 li,
+#other_box1 #company_data1-2 li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#top_main_nav ul {
+  width: 65%;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
 }

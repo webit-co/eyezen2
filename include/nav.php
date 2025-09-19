@@ -14,11 +14,19 @@
 		<li class="each_nav">
 			<a href="<?php echo $site_url ?>gallery">GALLERY</a>
 		</li>
+		<?php if(0):?>
 		<li class="each_nav">
 			<a href="<?php echo $site_url ?>technique">TECHNIQUE</a>
 		</li>
+		<?php endif ;?>
 		<li class="each_nav">
-			<a href="<?php echo $site_url ?>products">PRODUCTS</a>
+			<a href="<?php echo $site_url ?>works-live">WORKS(LIVE)</a>
+		</li>
+		<li class="each_nav">
+			<a href="<?php echo $site_url ?>works-eng">WORKS(ENG)</a>
+		</li>
+		<li class="each_nav">
+			<a href="<?php echo $site_url ?>equipment">EQUIPMENT</a>
 		</li>
 		<li class="each_nav">
 			<a href="<?php echo $site_url ?>recruit">RECRUIT</a>

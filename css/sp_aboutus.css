@@ -3354,7 +3354,7 @@ dl.list dd a {
 
 .office_title02 {
   margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   text-align: center;
 }
 
@@ -3388,4 +3388,10 @@ dl.list dd a {
 .map .map_link {
   width: 190px;
   margin: 0px auto 50px auto;
+}
+
+#footer_company_area #company_data1 {
+margin-top: 8px;
+line-height: 1.2;
+font-size: 1.3rem;
 }

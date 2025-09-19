@@ -143,6 +143,7 @@ h1 {
 h1#about,
 h1#gallery,
 h1#technique,
+h1#works-eng,
 h1#products,
 h1#about_title,
 h1#company_title,
@@ -161,6 +162,7 @@ h1.title1 {
 h1#about span,
 h1#gallery span,
 h1#technique span,
+h1#works-eng span,
 h1#products span,
 h1#about_title span,
 h1#company_title span,
@@ -209,26 +211,31 @@ h1.title1 span {
 #footer_company_area {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 50px;
 }
 #footer_company_area #company_name {
   font-size: 35px;
   font-size: 2.1875rem;
   font-weight: normal;
 }
-#footer_company_area #company_data1 {
+#footer_company_area #company_data1,
+#footer_company_area #company_data1-2 {
   display: flex;
   font-size: 25px;
   font-size: 1.5625rem;
   justify-content: center;
 }
-#footer_company_area #company_data1 img {
+#footer_company_area #company_data1 img,
+#footer_company_area #company_data1-2 img {
   width: 30px;
 }
-#footer_company_area #company_data1 ul {
+#footer_company_area #company_data1 ul,
+#footer_company_area #company_data1-2 ul {
   display: flex;
   flex-direction: row;
 }
-#footer_company_area #company_data1 li {
+#footer_company_area #company_data1 li,
+#footer_company_area #company_data1-2 li  {
   display: flex;
   align-items: center;
   margin: 10px;
@@ -3231,7 +3238,7 @@ header p {
 }
 #top_main_nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 70%;
   margin: 0 20px 0 auto;
 }
@@ -3242,6 +3249,8 @@ header p {
   -o-transition: 0.4s;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
 }
 #top_main_nav li.each_nav a:hover {
   color: #F00;
@@ -3428,6 +3437,43 @@ header p {
   height: 100%;
 }
 
+.mm_area .frame {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.mm_area .frame img {
+  width: 100%;
+}
+
+.mm_area > .frame::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.2705882353);
+  width: 70px;
+  height: 70px;
+}
+
+.mm_area > .frame::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  border-style: solid;
+  border-color: transparent transparent transparent #ffffff;
+  border-width: 15px 0 15px 25px;
+}
+
 .mm_sub_text {
   color: #FFF;
   margin: 10px 0;
@@ -3465,7 +3511,7 @@ header p {
 }
 
 #technique_box {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 #technique_contents {
@@ -3475,6 +3521,14 @@ header p {
   background-size: cover;
   background-position: bottom center;
   background-attachment: fixed;
+}
+
+#works-eng_contents {
+  background-color: #0000000a;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
 }
 
 dl.technique1_list {
@@ -3696,21 +3750,25 @@ dl.products1_list .line_top {
   font-weight: normal;
   padding-top: 30px;
 }
-#other_box1 #company_data1 {
+#other_box1 #company_data1,
+#other_box1 #company_data1-2 {
   display: flex;
   font-size: 25px;
   font-size: 1.5625rem;
   justify-content: center;
   margin-top: 10px;
 }
-#other_box1 #company_data1 img {
+#other_box1 #company_data1 img,
+#other_box1 #company_data1-2 img {
   width: 30px;
 }
-#other_box1 #company_data1 ul {
+#other_box1 #company_data1 ul,
+#other_box1 #company_data1-2 ul {
   display: flex;
   flex-direction: row;
 }
-#other_box1 #company_data1 li {
+#other_box1 #company_data1 li,
+#other_box1 #company_data1-2 li {
   display: flex;
   align-items: center;
   margin: 10px;
@@ -3824,3 +3882,20 @@ dl.products1_list .line_top {
 /**************************************
             recruit
 **************************************/
+
+
+#actual_results_wapper {
+  display: flex;
+  justify-content: center;
+  /* width: 70%; */
+  /* text-align: center; */
+  align-items: flex-start;
+}
+
+.actual2box_1, .actual2box_2 {
+  width: 40%;
+  text-align: center;
+}
+.m20 {
+  margin: 20px auto;
+}

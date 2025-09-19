@@ -3197,3 +3197,74 @@ h1.title1 span {
   background-color: #FFF;
   color: #000;
 }
+/**************************************
+            2024_footer修正
+**************************************/
+
+#footer_company_area #company_data1,
+#footer_company_area #company_data1-2 {
+  display: flex;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  justify-content: center;
+}
+#footer_company_area #company_data1 img,
+#footer_company_area #company_data1-2 img {
+  width: 30px;
+}
+#footer_company_area #company_data1 ul,
+#footer_company_area #company_data1-2 ul {
+  display: flex;
+  flex-direction: row;
+}
+#footer_company_area #company_data1 li,
+#footer_company_area #company_data1-2 li  {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+#other_box1 #company_data1,
+#other_box1 #company_data1-2 {
+  display: flex;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  justify-content: center;
+  margin-top: 10px;
+}
+#other_box1 #company_data1 img,
+#other_box1 #company_data1-2 img {
+  width: 30px;
+}
+#other_box1 #company_data1 ul,
+#other_box1 #company_data1-2 ul {
+  display: flex;
+  flex-direction: row;
+}
+#other_box1 #company_data1 li,
+#other_box1 #company_data1-2 li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#actual_results_wapper {
+  display: flex;
+  justify-content: center;
+  /* width: 70%; */
+  /* text-align: center; */
+  align-items: flex-start;
+}
+
+.actual2box_1, .actual2box_2 {
+  width: 40%;
+  text-align: center;
+}
+.m20 {
+  margin: 20px auto;
+}
+
+#top_main_nav ul {
+  width: 65%;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}

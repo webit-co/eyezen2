@@ -3152,6 +3152,42 @@ h1.title1 {
   width: 100%;
   height: 100%;
 }
+.mm_area .frame {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.mm_area .frame img {
+  width: 100%;
+}
+
+.mm_area > .frame::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.2705882353);
+  width: 70px;
+  height: 70px;
+}
+
+.mm_area > .frame::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  border-style: solid;
+  border-color: transparent transparent transparent #ffffff;
+  border-width: 15px 0 15px 25px;
+}
 
 .mm_sub_text {
   color: #FFF;
@@ -3282,10 +3318,11 @@ h1.title1 {
 .each_move_title {
   font-family: 'migmix1p',"Myriad Pro", "Trebuchet MS", sans-serif;
   font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.2;
   color: #FFF;
   border-left: 1px solid #F00;
-  padding: 3px 5px;
+  padding: 3px 5px 8px;
   text-align: left;
 }
 
@@ -3408,3 +3445,13 @@ h1.title1 {
 /**************************************
             modal
 **************************************/
+
+/**************************************
+        footer追加css
+**************************************/
+
+#footer_company_area #company_data1 {
+  margin-top: 8px;
+  line-height: 1.2;
+  font-size: 1.3rem;
+  }
